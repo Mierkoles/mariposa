@@ -1,0 +1,469 @@
+/*
+  Mariposa, chronicle look.
+  Paper and ink, with the Spanish words rubricated (in red) the way a scribe
+  marked what mattered. As the reader learns, the page turns red.
+*/
+
+:root {
+  --paper: #f4ecdc;
+  --paper-2: #ebe1cc;
+  --card: #faf5ea;
+  --ink: #1c1814;
+  --ink-2: #5c5348;
+  --line: #d6c9b1;
+  --rubric: #9b2c1f;
+  --rubric-soft: rgba(155, 44, 31, 0.38);
+  --ochre: #8a6a2f;
+  --verdigris: #3c6e58;
+  --verdigris-soft: #e0eae1;
+  --miss-soft: #f2ddd7;
+  --gloss-bg: #1c1814;
+  --gloss-fg: #f4ecdc;
+  --gloss-head: #f0b3a6;
+  --display: 'EB Garamond', 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif;
+  --body: 'Iowan Old Style', 'Palatino Linotype', Palatino, Georgia, serif;
+  --ui: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --radius: 4px;
+  color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #17130f;
+    --paper-2: #221c16;
+    --card: #1e1813;
+    --ink: #ebe2d1;
+    --ink-2: #a89c88;
+    --line: #3a3128;
+    --rubric: #d9705d;
+    --rubric-soft: rgba(217, 112, 93, 0.45);
+    --ochre: #c2a163;
+    --verdigris: #7fbc9d;
+    --verdigris-soft: #1f3129;
+    --miss-soft: #3a211c;
+    --gloss-bg: #ebe2d1;
+    --gloss-fg: #17130f;
+    --gloss-head: #9b2c1f;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--body);
+  font-size: 19px;
+  line-height: 1.6;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.screen {
+  max-width: 34rem;
+  margin: 0 auto;
+  padding: calc(1.25rem + env(safe-area-inset-top)) 1.1rem calc(6.5rem + env(safe-area-inset-bottom));
+}
+
+/* ---------- type ---------- */
+
+h1,
+h2,
+h3 {
+  font-family: var(--display);
+  font-weight: 600;
+  line-height: 1.15;
+  margin: 0 0 0.3rem;
+  letter-spacing: -0.005em;
+}
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 1.8rem;
+}
+h3 {
+  font-family: var(--display);
+  font-weight: 500;
+  font-size: 1.05rem;
+  font-variant-caps: small-caps;
+  letter-spacing: 0.08em;
+  color: var(--ochre);
+}
+
+.eyebrow {
+  margin: 0 0 0.2rem;
+  font-family: var(--display);
+  font-weight: 500;
+  font-size: 0.95rem;
+  font-variant-caps: small-caps;
+  letter-spacing: 0.06em;
+  color: var(--ochre);
+}
+.muted {
+  color: var(--ink-2);
+  margin: 0.15rem 0 1rem;
+}
+.small {
+  font-size: 0.9rem;
+}
+.stats {
+  font-family: var(--ui);
+  font-size: 0.85rem;
+  color: var(--ink-2);
+  margin: 0.75rem 0 0;
+}
+
+/* ornamental rule: hairlines with a hedera */
+.rule {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  color: var(--rubric);
+  font-size: 1rem;
+  margin: 0.9rem 0 1.4rem;
+}
+.rule::before,
+.rule::after {
+  content: '';
+  flex: 1;
+  border-top: 1px solid var(--line);
+}
+
+/* ---------- home ---------- */
+
+.brand {
+  margin-bottom: 0.5rem;
+}
+.brand h1 {
+  margin-bottom: 0;
+}
+.season {
+  margin: 0;
+  font-family: var(--display);
+  font-weight: 500;
+  font-size: 1.2rem;
+  font-variant-caps: small-caps;
+  letter-spacing: 0.1em;
+  color: var(--rubric);
+}
+.tag {
+  margin: 0.1rem 0 0;
+  color: var(--ink-2);
+  font-style: italic;
+}
+
+.journey {
+  font-family: var(--ui);
+  font-size: 0.85rem;
+  color: var(--ink-2);
+  margin: 1.5rem 0 1.5rem;
+}
+.journey p {
+  margin: 0 0 0.5rem;
+}
+.journey .bar {
+  position: relative;
+  height: 2px;
+  background: var(--line);
+}
+.journey .bar i {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background: var(--rubric);
+  min-width: 2px;
+}
+.journey .bar::after {
+  content: '';
+  position: absolute;
+  right: -2px;
+  top: -2px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--line);
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 1.25rem 1.25rem 1.35rem;
+  margin-bottom: 1rem;
+}
+.card h2 {
+  margin-top: 0.15rem;
+}
+
+.rewind {
+  margin-top: 2rem;
+}
+.rewind .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  width: 100%;
+  padding: 0.55rem 0;
+  border-bottom: 1px solid var(--line);
+}
+.rewind .row .when {
+  font-family: var(--ui);
+  font-size: 0.8rem;
+  color: var(--ink-2);
+  white-space: nowrap;
+}
+
+footer {
+  margin-top: 3rem;
+}
+
+/* ---------- buttons ---------- */
+
+button {
+  font-family: var(--ui);
+  font-size: 0.95rem;
+  cursor: pointer;
+  border: 1px solid var(--line);
+  background: var(--card);
+  color: var(--ink);
+  padding: 0.7rem 1rem;
+  border-radius: var(--radius);
+}
+button:disabled {
+  cursor: default;
+}
+button.primary {
+  display: block;
+  width: 100%;
+  margin-top: 1.25rem;
+  background: var(--rubric);
+  color: var(--paper);
+  border-color: var(--rubric);
+  font-weight: 600;
+  padding: 0.9rem 1rem;
+}
+button.primary:disabled {
+  background: var(--paper-2);
+  border-color: var(--line);
+  color: var(--ink-2);
+}
+button.link {
+  display: block;
+  background: none;
+  border: none;
+  padding: 0.35rem 0;
+  color: var(--rubric);
+  font-family: var(--body);
+  font-size: 1rem;
+  text-align: left;
+}
+button.link.subtle {
+  color: var(--ink-2);
+  font-family: var(--ui);
+  font-size: 0.8rem;
+}
+
+/* ---------- story ---------- */
+
+.story p {
+  margin: 0 0 1.15rem;
+}
+.story > p:first-child::first-letter {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 3.6em;
+  float: left;
+  line-height: 0.78;
+  padding: 0.1em 0.1em 0 0;
+  color: var(--rubric);
+}
+
+/* woven word: rubricated */
+.w {
+  display: inline;
+  padding: 0.3em 0.06em;
+  margin: 0 -0.02em;
+  border: none;
+  border-radius: 2px;
+  background: none;
+  color: var(--rubric);
+  font: inherit;
+}
+.w.w-new {
+  text-decoration: underline;
+  text-decoration-color: var(--rubric-soft);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.18em;
+}
+.w.w-known {
+  color: inherit;
+}
+.w.active {
+  background: var(--paper-2);
+}
+
+/* floating gloss card, anchored under the tapped word */
+.gloss {
+  position: absolute;
+  z-index: 10;
+  max-width: min(20rem, calc(100vw - 1.5rem));
+  background: var(--gloss-bg);
+  color: var(--gloss-fg);
+  font-family: var(--ui);
+  font-size: 0.88rem;
+  line-height: 1.4;
+  padding: 0.6rem 0.8rem;
+  border-radius: var(--radius);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+}
+.gloss::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: var(--caret, 50%);
+  width: 10px;
+  height: 10px;
+  background: var(--gloss-bg);
+  transform: translateX(-50%) rotate(45deg);
+}
+.gloss b {
+  font-family: var(--display);
+  font-weight: 500;
+  font-style: italic;
+  font-size: 1.1rem;
+  color: var(--gloss-head);
+  margin-right: 0.5em;
+}
+.gloss small {
+  display: block;
+  margin-top: 0.35rem;
+  padding-top: 0.35rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  opacity: 0.8;
+  font-size: 0.8rem;
+}
+
+/* ---------- drills ---------- */
+
+.drill .prompt {
+  font-size: 1.2rem;
+  margin: 0.5rem 0 1.4rem;
+}
+.hint {
+  color: var(--ink-2);
+  font-style: italic;
+  margin: 0.5rem 0 1rem;
+}
+.options {
+  display: grid;
+  gap: 0.6rem;
+}
+.options button {
+  text-align: left;
+  padding: 0.9rem 1rem;
+  font-family: var(--body);
+  font-size: 1.1rem;
+}
+.options button:disabled {
+  color: var(--ink);
+}
+.options button.ok {
+  background: var(--verdigris-soft);
+  border-color: var(--verdigris);
+}
+.options button.miss {
+  background: var(--miss-soft);
+  border-color: var(--rubric);
+}
+
+.answer-row,
+.bank {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  min-height: 3.4rem;
+  padding: 0.5rem 0;
+}
+.answer-row {
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 1rem;
+}
+.answer-row:empty::before {
+  content: 'Tap the words in order';
+  align-self: center;
+  font-family: var(--ui);
+  font-size: 0.85rem;
+  color: var(--ink-2);
+  opacity: 0.7;
+}
+.answer-row button,
+.bank button {
+  font-family: var(--body);
+  font-size: 1.05rem;
+}
+.bank button {
+  background: var(--paper-2);
+}
+
+/* feedback bar, fixed to the bottom so the tiles stay put */
+.feedback {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 5;
+  background: var(--card);
+  border-top: 3px solid var(--verdigris);
+  padding: 0.9rem 1.1rem calc(0.9rem + env(safe-area-inset-bottom));
+}
+.feedback.miss {
+  border-top-color: var(--rubric);
+}
+.feedback .inner {
+  max-width: 34rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.feedback p {
+  margin: 0;
+  flex: 1;
+  font-size: 1.05rem;
+}
+.feedback .verdict {
+  font-family: var(--ui);
+  font-weight: 600;
+  color: var(--verdigris);
+}
+.feedback.miss .verdict {
+  color: var(--rubric);
+}
+.feedback button.primary {
+  width: auto;
+  margin: 0;
+  padding: 0.7rem 1.2rem;
+}
+
+/* ---------- finish ---------- */
+
+.score {
+  font-family: var(--display);
+  font-size: 1.3rem;
+  margin: 0.25rem 0 0;
+}
+.hook {
+  font-family: var(--display);
+  font-style: italic;
+  font-size: 1.3rem;
+  line-height: 1.4;
+  text-align: center;
+  margin: 0.5rem 0;
+}

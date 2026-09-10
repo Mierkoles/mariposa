@@ -1,0 +1,132 @@
+{
+  "id": "ch01",
+  "number": 1,
+  "title": { "es": "Cabeza de Vaca", "en": "Head of a Cow" },
+  "level": 1,
+  "place": "Florida",
+  "date": "abril de 1528",
+  "vocab": [
+    { "id": "cabeza", "es": "cabeza", "en": "head", "pos": "noun", "note": "la cabeza. Also the head of a group: la cabeza de la expedición." },
+    { "id": "vaca", "es": "vaca", "en": "cow", "pos": "noun", "note": "la vaca. A bull is el toro." },
+    { "id": "tesorero", "es": "tesorero", "en": "treasurer", "pos": "noun", "cognate": true, "note": "el tesorero, from tesoro, treasure." },
+    { "id": "expedicion", "es": "expedición", "en": "expedition", "pos": "noun", "cognate": true },
+    { "id": "gobernador", "es": "gobernador", "en": "governor", "pos": "noun", "cognate": true, "note": "Spanish -dor is our -or: director, gobernador." },
+    { "id": "costa", "es": "costa", "en": "coast", "pos": "noun", "cognate": true, "note": "la costa, as in Costa Rica, the rich coast." },
+    { "id": "oceano", "es": "océano", "en": "ocean", "pos": "noun", "cognate": true, "note": "el océano. Stress the é: o-CÉ-a-no." },
+    { "id": "fortuna", "es": "fortuna", "en": "fortune", "pos": "noun", "cognate": true },
+    { "id": "oro", "es": "oro", "en": "gold", "pos": "noun", "note": "el oro. The word in El Dorado, the golden one." },
+    { "id": "sol", "es": "sol", "en": "sun", "pos": "noun", "cognate": true, "note": "el sol. Masculine, like solar." },
+    { "id": "norte", "es": "norte", "en": "north", "pos": "noun", "cognate": true, "note": "el norte. The compass: norte, sur, este, oeste." }
+  ],
+  "paragraphs": [
+    [
+      "My name is Álvar Núñez Cabeza de Vaca. In Spanish it means ",
+      { "id": "cabeza", "es": "cabeza", "en": "head" },
+      " of a ",
+      { "id": "vaca", "es": "vaca", "en": "cow" },
+      ". Three hundred years ago a shepherd in my family marked a mountain pass with the skull of a ",
+      { "id": "vaca", "es": "vaca", "en": "cow" },
+      ", and a king won a battle because of it. The king gave him the name. I have carried it ever since."
+    ],
+    [
+      "I am the ",
+      { "id": "tesorero", "es": "tesorero", "en": "treasurer" },
+      " of this ",
+      { "id": "expedicion", "es": "expedición", "en": "expedition" },
+      ". I count the King's money. The ",
+      { "id": "gobernador", "es": "gobernador", "en": "governor" },
+      " is Pánfilo de Narváez. He has one eye. He lost the other in Mexico, fighting Cortés, and he has not forgiven anyone for it. We are three hundred men and forty-two horses, of the eighty horses we sailed with. This morning we stand on the ",
+      { "id": "costa", "es": "costa", "en": "coast" },
+      " of Florida with the ",
+      { "id": "oceano", "es": "océano", "en": "ocean" },
+      " at our backs and the ",
+      { "id": "sol", "es": "sol", "en": "sun" },
+      " already hot on our armor."
+    ],
+    [
+      "We left Spain ten months ago. The ",
+      { "id": "oceano", "es": "océano", "en": "ocean" },
+      " took most of that time. A storm in Cuba took two ships and sixty men. ",
+      { "id": "fortuna", "es": "Fortuna", "en": "Fortune" },
+      " has not been kind to this ",
+      { "id": "expedicion", "es": "expedición", "en": "expedition" },
+      ". But the ",
+      { "id": "gobernador", "es": "gobernador", "en": "governor" },
+      " does not think about ",
+      { "id": "fortuna", "es": "fortuna", "en": "fortune" },
+      ". He thinks about ",
+      { "id": "oro", "es": "oro", "en": "gold" },
+      "."
+    ],
+    [
+      "There is a village near the beach. It is empty. The people saw our ships and ran. Among the fishing nets our men find a small rattle made of ",
+      { "id": "oro", "es": "oro", "en": "gold" },
+      ". The ",
+      { "id": "gobernador", "es": "gobernador", "en": "governor" },
+      " holds it up to the ",
+      { "id": "sol", "es": "sol", "en": "sun" },
+      ". Three hundred ",
+      { "id": "cabeza", "es": "cabezas", "en": "heads" },
+      " turn to look. It is the size of a child's fist. It is enough. Where there is one piece of ",
+      { "id": "oro", "es": "oro", "en": "gold" },
+      ", he says, there is a mountain of it."
+    ],
+    [
+      "He wants to march ",
+      { "id": "norte", "es": "norte", "en": "north" },
+      ", into the land, and send the ships along the ",
+      { "id": "costa", "es": "costa", "en": "coast" },
+      " to find a harbor. I say no. We do not know this land. We have little food and no interpreter. If we leave the ships, we may never find them again. He looks at me with his one eye. \"If the ",
+      { "id": "tesorero", "es": "tesorero", "en": "treasurer" },
+      " is afraid,\" he says, \"he can stay with the ships.\" I am not afraid. I ask the notary to write down that I objected. Then I pick up my pack and face ",
+      { "id": "norte", "es": "norte", "en": "north" },
+      "."
+    ]
+  ],
+  "drills": [
+    {
+      "type": "choose",
+      "prompt": ["I am the ___ of this expedition. I count the King's money."],
+      "options": ["tesorero", "gobernador", "expedición", "océano"],
+      "answer": 0,
+      "vocab": "tesorero"
+    },
+    {
+      "type": "choose",
+      "prompt": ["Where there is one piece of ___, he says, there is a mountain of it."],
+      "options": ["sol", "oro", "costa", "fortuna"],
+      "answer": 1,
+      "vocab": "oro"
+    },
+    {
+      "type": "reorder",
+      "tokens": ["La", "cabeza", "de", "la", "vaca."],
+      "hint": "The head of the cow.",
+      "vocab": "cabeza"
+    },
+    {
+      "type": "comprehend",
+      "question": [
+        "¿Qué busca el ",
+        { "id": "gobernador", "es": "gobernador", "en": "governor" },
+        "?"
+      ],
+      "options": ["oro", "vacas", "sol", "norte"],
+      "answer": 0
+    },
+    {
+      "type": "choose",
+      "prompt": ["We stand on the ___ of Florida with the ocean at our backs."],
+      "options": ["costa", "norte", "expedición", "cabeza"],
+      "answer": 0,
+      "vocab": "costa"
+    },
+    {
+      "type": "reorder",
+      "tokens": ["El", "sol", "y", "el", "océano."],
+      "hint": "The sun and the ocean.",
+      "vocab": "sol"
+    }
+  ],
+  "hook": "Tomorrow: the march north begins. Two pounds of biscuit and half a pound of bacon per man."
+}
