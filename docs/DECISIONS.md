@@ -67,3 +67,13 @@ Append-only. Supersede with a new entry rather than editing an old one.
 **Triggers to revisit.** Sync or accounts (data on a server), audio (bandwidth), a generation API with a key, or a decision to keep unreviewed Spanish out of public view.
 
 **Consequences.** Zero hosting cost and one vendor. The app is served under `/mariposa/`, so `base` and the manifest scope are set accordingly. The URL is tied to the owner's GitHub handle and is discoverable, which is accepted. The no-auth-code rule in CLAUDE.md stands.
+
+## ADR-008: One continuous weave ramp (2026-09-11). Revises the level scheme in ADR-005.
+
+**Context.** The ramp was six levels tied to the three story arcs, two per arc, with uneven widths (level 3 covered five chapters, level 4 covered twenty-five). Each arc boundary bundled several new grammar features into one chapter; level 5 added full sentences, the preterite, and all-Spanish dialogue at once. A reader would feel three staircases rather than one slope. Mark asked for a gradual curve.
+
+**Options considered.** Keep six levels and even out the widths; keep the levels and add a per-chapter share target; replace the levels with a finer ladder plus a share target.
+
+**Decision.** Two dials, both moving every chapter. The share of Spanish words in the prose rises one point per chapter (target 6 + N percent, capped at 95, tolerance three points), which puts chapter 1 at its measured 7 percent and the final chapters at 95. The grammar ladder has ten levels of about nine chapters, each adding one thing. Levels 5 and 8 start where the story motivates them (verbs with the trading years, the preterite with the walk); the rest are spaced evenly. Arcs are story structure only and the weave does not step at their boundaries.
+
+**Consequences.** `level` is now 1 to 10; chapter 1 is unchanged. STORY.md carries a level marker on the beat where each level begins. `npm run weave` reports every chapter's share and level against the ramp and fails on a miss. The slope assumes ninety chapters; if the season shortens, re-derive it so the last chapter still lands at 95.

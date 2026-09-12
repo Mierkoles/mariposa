@@ -1,0 +1,130 @@
+{
+  "id": "ch02",
+  "number": 2,
+  "title": { "es": "Cinco barcos", "en": "Five Ships" },
+  "level": 1,
+  "place": "Sanlúcar de Barrameda",
+  "date": "junio de 1527",
+  "vocab": [
+    { "id": "barco", "es": "barco", "en": "ship", "pos": "noun", "note": "el barco. A small boat is la barca." },
+    { "id": "hombre", "es": "hombre", "en": "man", "pos": "noun", "note": "el hombre, los hombres. The h is silent: OM-bre." },
+    { "id": "capitan", "es": "capitán", "en": "captain", "pos": "noun", "cognate": true, "note": "el capitán. Stress the last syllable: ca-pi-TÁN." },
+    { "id": "puerto", "es": "puerto", "en": "port", "pos": "noun", "cognate": true, "note": "el puerto, as in Puerto Rico, the rich port." },
+    { "id": "rio", "es": "río", "en": "river", "pos": "noun", "cognate": true, "note": "el río, as in Río Grande." },
+    { "id": "isla", "es": "isla", "en": "island", "pos": "noun", "cognate": true, "note": "la isla. The s is pronounced: EES-la." },
+    { "id": "provincia", "es": "provincia", "en": "province", "pos": "noun", "cognate": true, "note": "la provincia." }
+  ],
+  "paragraphs": [
+    [
+      "Tonight I cannot sleep. The ",
+      { "id": "gobernador", "es": "gobernador", "en": "governor" },
+      " has ordered the march for the first of May, and every ",
+      { "id": "hombre", "es": "hombre", "en": "man" },
+      " in the camp is counting what he has: a little biscuit, a knife, his boots. I count backward instead. I count to Sanlúcar."
+    ],
+    [
+      "Sanlúcar de Barrameda is the ",
+      { "id": "puerto", "es": "puerto", "en": "port" },
+      " at the mouth of the ",
+      { "id": "rio", "es": "río", "en": "river" },
+      " Guadalquivir, where the ",
+      { "id": "rio", "es": "río", "en": "river" },
+      " meets the ",
+      { "id": "oceano", "es": "océano", "en": "ocean" },
+      ". On the seventeenth of June, 1527, five ",
+      { "id": "barco", "es": "barcos", "en": "ships" },
+      " leave that ",
+      { "id": "puerto", "es": "puerto", "en": "port" },
+      ". Six hundred people are on board, and among them one ",
+      { "id": "tesorero", "es": "tesorero", "en": "treasurer" },
+      " who has never seen the Indies. The King has given the ",
+      { "id": "gobernador", "es": "gobernador", "en": "governor" },
+      " a commission. He is to conquer and govern the ",
+      { "id": "provincia", "es": "provincia", "en": "province" },
+      " that runs from the Río de las Palmas to the cape of Florida. Nobody on the five ",
+      { "id": "barco", "es": "barcos", "en": "ships" },
+      " knows how far that is. Nobody knows what is in it."
+    ],
+    [
+      "The ",
+      { "id": "capitan", "es": "capitán", "en": "captain" },
+      " of my ",
+      { "id": "barco", "es": "barco", "en": "ship" },
+      " tells me the crossing is easy in summer. He is right about the crossing. We come to the ",
+      { "id": "isla", "es": "isla", "en": "island" },
+      " of Hispaniola, to the city of Santo Domingo, and we stay forty-five days to buy horses and supplies. It is a mistake. A hundred and forty of our ",
+      { "id": "hombre", "es": "hombres", "en": "men" },
+      " see the ",
+      { "id": "isla", "es": "isla", "en": "island" },
+      ", hear the stories from the men already living there, and desert. A hundred and forty. The ",
+      { "id": "gobernador", "es": "gobernador", "en": "governor" },
+      " says nothing that I hear. We sail for Cuba."
+    ],
+    [
+      "I think about the numbers tonight because I am a ",
+      { "id": "tesorero", "es": "tesorero", "en": "treasurer" },
+      " and numbers are what I keep. Six hundred at Sanlúcar. A hundred and forty fewer after the ",
+      { "id": "isla", "es": "isla", "en": "island" },
+      ". Three hundred on this ",
+      { "id": "costa", "es": "costa", "en": "coast" },
+      ". A ",
+      { "id": "provincia", "es": "provincia", "en": "province" },
+      " on paper, with a ",
+      { "id": "rio", "es": "río", "en": "river" },
+      " at one end and a cape at the other, and nobody who has walked between them."
+    ],
+    [
+      { "id": "fortuna", "es": "Fortuna", "en": "Fortune" },
+      " takes a little at every ",
+      { "id": "puerto", "es": "puerto", "en": "port" },
+      ". In Cuba she took a great deal at once. I was on land when it happened, and the ",
+      { "id": "capitan", "es": "capitán", "en": "captain" },
+      " who told me the crossing was easy was not."
+    ]
+  ],
+  "drills": [
+    {
+      "type": "choose",
+      "prompt": ["Five ___ leave Sanlúcar on the seventeenth of June."],
+      "options": ["barcos", "hombres", "puertos", "ríos"],
+      "answer": 0,
+      "vocab": "barco"
+    },
+    {
+      "type": "choose",
+      "prompt": ["Sanlúcar is the ___ at the mouth of the river."],
+      "options": ["puerto", "isla", "provincia", "capitán"],
+      "answer": 0,
+      "vocab": "puerto"
+    },
+    {
+      "type": "reorder",
+      "tokens": ["El", "capitán", "y", "el", "barco."],
+      "hint": "The captain and the ship.",
+      "vocab": "capitan"
+    },
+    {
+      "type": "reorder",
+      "tokens": ["La", "isla", "y", "el", "puerto."],
+      "hint": "The island and the port.",
+      "vocab": "isla"
+    },
+    {
+      "type": "comprehend",
+      "question": ["¿Qué es Sanlúcar?"],
+      "options": ["un puerto", "una isla", "una provincia", "un río"],
+      "answer": 0
+    },
+    {
+      "type": "comprehend",
+      "question": [
+        "¿Dónde desertan los ",
+        { "id": "hombre", "es": "hombres", "en": "men" },
+        "?"
+      ],
+      "options": ["Hispaniola", "Cuba", "Florida", "Sanlúcar"],
+      "answer": 0
+    }
+  ],
+  "hook": "Tomorrow: the hurricane at Trinidad. Sixty men, twenty horses, two ships, and voices in the wind."
+}

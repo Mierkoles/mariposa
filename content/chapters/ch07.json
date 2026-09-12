@@ -1,0 +1,160 @@
+{
+  "id": "ch07",
+  "number": 7,
+  "title": { "es": "Dulchanchellin", "en": "Dulchanchellin" },
+  "level": 1,
+  "place": "Florida",
+  "date": "mayo de 1528",
+  "vocab": [
+    { "id": "piel", "es": "piel", "en": "hide", "pos": "noun", "note": "la piel. Skin, or an animal's hide. Piel de ciervo, deerskin." },
+    { "id": "ciervo", "es": "ciervo", "en": "deer", "pos": "noun", "note": "el ciervo. In the Americas you will also hear venado." },
+    { "id": "cacique", "es": "cacique", "en": "chief", "pos": "noun", "cognate": true, "note": "el cacique. Spanish took it from the Taíno of the Caribbean and used it everywhere after." },
+    { "id": "enemigo", "es": "enemigo", "en": "enemy", "pos": "noun", "cognate": true, "note": "el enemigo, la enemiga." },
+    { "id": "musica", "es": "música", "en": "music", "pos": "noun", "cognate": true, "note": "la música. Stress the first syllable: MÚ-si-ca." },
+    { "id": "color", "es": "color", "en": "color", "pos": "noun", "cognate": true, "note": "el color, los colores. Masculine." }
+  ],
+  "paragraphs": [
+    [
+      "He comes to us on another ",
+      { "id": "hombre", "es": "hombre", "en": "man" },
+      "'s back. That is the first thing. A ",
+      { "id": "cacique", "es": "cacique", "en": "chief" },
+      " does not walk to meet strangers. He is carried, and the ",
+      { "id": "hombre", "es": "hombre", "en": "man" },
+      " who carries him holds his head high. In front of them come ",
+      { "id": "hombre", "es": "hombres", "en": "men" },
+      " playing ",
+      { "id": "flauta", "es": "flautas", "en": "flutes" },
+      " made of reed, and behind them come many people. The ",
+      { "id": "musica", "es": "música", "en": "music" },
+      " reaches us before they do."
+    ],
+    [
+      "The ",
+      { "id": "cacique", "es": "cacique", "en": "chief" },
+      " wears the ",
+      { "id": "piel", "es": "piel", "en": "hide" },
+      " of a ",
+      { "id": "ciervo", "es": "ciervo", "en": "deer" },
+      ", painted. The ",
+      { "id": "color", "es": "colores", "en": "colors" },
+      " are laid on in lines and marks, and I do not know what the ",
+      { "id": "color", "es": "colores", "en": "colors" },
+      " mean. His name is Dulchanchellin. The ",
+      { "id": "gobernador", "es": "gobernador", "en": "governor" },
+      " goes to him and they talk with their hands for a long time. I stand close and write down what I understand, which is little."
+    ],
+    [
+      "This much is clear. The Apalachee are his ",
+      { "id": "enemigo", "es": "enemigos", "en": "enemies" },
+      ". He wants us to go to Apalachee, and he will come with us, and his people will come with us. An ",
+      { "id": "enemigo", "es": "enemigo", "en": "enemy" },
+      " of your ",
+      { "id": "enemigo", "es": "enemigo", "en": "enemy" },
+      " is a friend, in Florida as in Castile. The ",
+      { "id": "gobernador", "es": "gobernador", "en": "governor" },
+      " gives him beads and small bells. The ",
+      { "id": "cacique", "es": "cacique", "en": "chief" },
+      " takes off the ",
+      { "id": "piel", "es": "piel", "en": "hide" },
+      " of the ",
+      { "id": "ciervo", "es": "ciervo", "en": "deer" },
+      " and gives it to the ",
+      { "id": "gobernador", "es": "gobernador", "en": "governor" },
+      ". It is still warm."
+    ],
+    [
+      "We walk with them the rest of the day, ",
+      { "id": "norte", "es": "norte", "en": "north" },
+      ", through the same ",
+      { "id": "arena", "es": "arena", "en": "sand" },
+      " and the same ",
+      { "id": "pino", "es": "pinos", "en": "pines" },
+      ", with the ",
+      { "id": "sol", "es": "sol", "en": "sun" },
+      " on our helmets. The ",
+      { "id": "flauta", "es": "flautas", "en": "flutes" },
+      " play the whole way. I have heard ",
+      { "id": "musica", "es": "música", "en": "music" },
+      " in the ",
+      { "id": "tormenta", "es": "tormenta", "en": "storm" },
+      " at Trinidad, played by nobody, and I hear it here, played by ",
+      { "id": "hombre", "es": "hombres", "en": "men" },
+      " who want us to fight their war. I do not know which frightens me more. I write it down anyway: ",
+      { "id": "flauta", "es": "flautas", "en": "flutes" },
+      " of reed, a painted ",
+      { "id": "piel", "es": "piel", "en": "hide" },
+      ", a ",
+      { "id": "cacique", "es": "cacique", "en": "chief" },
+      " on a ",
+      { "id": "hombre", "es": "hombre", "en": "man" },
+      "'s back, and three hundred Spaniards walking behind him toward the ",
+      { "id": "oro", "es": "oro", "en": "gold" },
+      "."
+    ],
+    [
+      "Ahead of us, the ",
+      { "id": "cacique", "es": "cacique", "en": "chief" },
+      " says with his hands, there is a ",
+      { "id": "rio", "es": "río", "en": "river" },
+      ". A big one. Bigger than the last. He does not say how we will cross it, and we do not ask, because the ",
+      { "id": "guia", "es": "guías", "en": "guides" },
+      " we took at the last ",
+      { "id": "rio", "es": "río", "en": "river" },
+      " are walking beside him now, and they are not looking at us."
+    ]
+  ],
+  "drills": [
+    {
+      "type": "choose",
+      "prompt": ["The chief wears the ___ of a deer, painted."],
+      "options": ["piel", "música", "color", "flauta"],
+      "answer": 0,
+      "vocab": "piel"
+    },
+    {
+      "type": "choose",
+      "prompt": ["The Apalachee are his ___."],
+      "options": ["enemigos", "guías", "caciques", "hombres"],
+      "answer": 0,
+      "vocab": "enemigo"
+    },
+    {
+      "type": "reorder",
+      "tokens": ["La", "piel", "de", "un", "ciervo."],
+      "hint": "The hide of a deer.",
+      "vocab": "ciervo"
+    },
+    {
+      "type": "reorder",
+      "tokens": ["El", "cacique", "y", "la", "música."],
+      "hint": "The chief and the music.",
+      "vocab": "cacique"
+    },
+    {
+      "type": "comprehend",
+      "question": [
+        "¿Quién es el ",
+        { "id": "enemigo", "es": "enemigo", "en": "enemy" },
+        " del ",
+        { "id": "cacique", "es": "cacique", "en": "chief" },
+        "?"
+      ],
+      "options": ["Apalachee", "el gobernador", "el tesorero", "Narváez"],
+      "answer": 0
+    },
+    {
+      "type": "comprehend",
+      "question": [
+        "¿Qué da el ",
+        { "id": "cacique", "es": "cacique", "en": "chief" },
+        " al ",
+        { "id": "gobernador", "es": "gobernador", "en": "governor" },
+        "?"
+      ],
+      "options": ["una piel", "oro", "maíz", "un caballo"],
+      "answer": 0
+    }
+  ],
+  "hook": "Tomorrow: the Suwannee. A horseman rides into the river and does not come out."
+}

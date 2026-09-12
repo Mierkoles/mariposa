@@ -1,0 +1,143 @@
+{
+  "id": "ch03",
+  "number": 3,
+  "title": { "es": "La tormenta", "en": "The Storm" },
+  "level": 1,
+  "place": "Trinidad, Cuba",
+  "date": "1527",
+  "vocab": [
+    { "id": "tormenta", "es": "tormenta", "en": "storm", "pos": "noun", "cognate": true, "note": "la tormenta. A hurricane is un huracán, a word Spanish took from the Taíno." },
+    { "id": "viento", "es": "viento", "en": "wind", "pos": "noun", "note": "el viento. The v sounds like a soft b: BYEN-to." },
+    { "id": "mar", "es": "mar", "en": "sea", "pos": "noun", "note": "el mar, though sailors and poets say la mar." },
+    { "id": "caballo", "es": "caballo", "en": "horse", "pos": "noun", "cognate": true, "note": "el caballo. Think cavalry, caballero." },
+    { "id": "flauta", "es": "flauta", "en": "flute", "pos": "noun", "cognate": true, "note": "la flauta." },
+    { "id": "voz", "es": "voz", "en": "voice", "pos": "noun", "cognate": true, "note": "la voz, plural las voces. The z becomes c before e." },
+    { "id": "instrumento", "es": "instrumento", "en": "instrument", "pos": "noun", "cognate": true, "note": "el instrumento." }
+  ],
+  "paragraphs": [
+    [
+      "The ",
+      { "id": "gobernador", "es": "gobernador", "en": "governor" },
+      " sends two of our ",
+      { "id": "barco", "es": "barcos", "en": "ships" },
+      " to the ",
+      { "id": "puerto", "es": "puerto", "en": "port" },
+      " of Trinidad, on the south ",
+      { "id": "costa", "es": "costa", "en": "coast" },
+      " of Cuba, to take on supplies. I go with them. I am on land with some of the men when the ",
+      { "id": "tormenta", "es": "tormenta", "en": "storm" },
+      " comes."
+    ],
+    [
+      "It begins as rain. Then the ",
+      { "id": "viento", "es": "viento", "en": "wind" },
+      " comes from the ",
+      { "id": "norte", "es": "norte", "en": "north" },
+      " and does not stop. The ",
+      { "id": "mar", "es": "mar", "en": "sea" },
+      " rises into the streets. The houses come apart. Seven or eight ",
+      { "id": "hombre", "es": "hombres", "en": "men" },
+      " hold each other by the arms so the ",
+      { "id": "viento", "es": "viento", "en": "wind" },
+      " cannot carry us away. We walk like that all night, and the ",
+      { "id": "viento", "es": "viento", "en": "wind" },
+      " carries other things past us: ",
+      { "id": "voz", "es": "voces", "en": "voices" },
+      ", the sound of small bells, ",
+      { "id": "flauta", "es": "flautas", "en": "flutes" },
+      ", drums, ",
+      { "id": "instrumento", "es": "instrumentos", "en": "instruments" },
+      " I cannot name. There are no ",
+      { "id": "instrumento", "es": "instrumentos", "en": "instruments" },
+      ". There is no one there. I write it down as I heard it."
+    ],
+    [
+      "In the morning the ",
+      { "id": "tormenta", "es": "tormenta", "en": "storm" },
+      " is gone and so are the two ",
+      { "id": "barco", "es": "barcos", "en": "ships" },
+      ". We find a ship's boat in the top of a tree. We find two bodies on the ",
+      { "id": "costa", "es": "costa", "en": "coast" },
+      ", so broken by the rocks and the ",
+      { "id": "mar", "es": "mar", "en": "sea" },
+      " that no one can say who they were. Sixty ",
+      { "id": "hombre", "es": "hombres", "en": "men" },
+      ", twenty ",
+      { "id": "caballo", "es": "caballos", "en": "horses" },
+      ", and two ",
+      { "id": "barco", "es": "barcos", "en": "ships" },
+      " are lost, and with them everything they carried."
+    ],
+    [
+      "The ",
+      { "id": "gobernador", "es": "gobernador", "en": "governor" },
+      " arrives with the other ",
+      { "id": "barco", "es": "barcos", "en": "ships" },
+      " some days later. He asks me what happened. I tell him what I have written. He listens with his one eye on the ",
+      { "id": "mar", "es": "mar", "en": "sea" },
+      ". The ",
+      { "id": "hombre", "es": "hombres", "en": "men" },
+      " are afraid of the ",
+      { "id": "mar", "es": "mar", "en": "sea" },
+      " now, and they ask him to wait for winter to pass. He agrees. It is a hard thing to see what a ",
+      { "id": "tormenta", "es": "tormenta", "en": "storm" },
+      " leaves behind. It is a worse thing to sail into the season of them."
+    ],
+    [
+      "We winter at the ",
+      { "id": "puerto", "es": "puerto", "en": "port" },
+      " of Xagua. I keep the numbers in my book. Sixty ",
+      { "id": "hombre", "es": "hombres", "en": "men" },
+      ". Twenty ",
+      { "id": "caballo", "es": "caballos", "en": "horses" },
+      ". Two ",
+      { "id": "barco", "es": "barcos", "en": "ships" },
+      ". And a sound of ",
+      { "id": "voz", "es": "voces", "en": "voices" },
+      " and ",
+      { "id": "flauta", "es": "flautas", "en": "flutes" },
+      " over the water that I cannot enter in any column."
+    ]
+  ],
+  "drills": [
+    {
+      "type": "choose",
+      "prompt": ["The ___ comes from the north and does not stop."],
+      "options": ["viento", "mar", "caballo", "flauta"],
+      "answer": 0,
+      "vocab": "viento"
+    },
+    {
+      "type": "choose",
+      "prompt": ["Sixty men, twenty ___, and two ships are lost."],
+      "options": ["caballos", "hombres", "barcos", "voces"],
+      "answer": 0,
+      "vocab": "caballo"
+    },
+    {
+      "type": "reorder",
+      "tokens": ["El", "viento", "y", "el", "mar."],
+      "hint": "The wind and the sea.",
+      "vocab": "mar"
+    },
+    {
+      "type": "reorder",
+      "tokens": ["Una", "tormenta", "en", "el", "puerto."],
+      "hint": "A storm in the port.",
+      "vocab": "tormenta"
+    },
+    {
+      "type": "comprehend",
+      "question": [
+        "¿Qué oye el ",
+        { "id": "tesorero", "es": "tesorero", "en": "treasurer" },
+        " en la ",
+        { "id": "tormenta", "es": "tormenta", "en": "storm" },
+        "?"
+      ],
+      "options": ["voces y flautas", "caballos", "oro", "barcos"],
+      "answer": 0
+    }
+  ],
+  "hook": "Tomorrow: back on the beach in Florida. Flags, a notary, and a document read aloud to a village with no one in it."
+}

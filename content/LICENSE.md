@@ -11,7 +11,7 @@ Full text: https://creativecommons.org/licenses/by/4.0/legalcode
 
 Season one, *Naufragios*, is an original retelling of *La relación* by Álvar
 Núñez Cabeza de Vaca (Zamora, 1542), which is in the public domain. Passages
-quoted from the 1542 text at weave level 6 are public domain and carry no
+quoted from the 1542 text at weave level 10 are public domain and carry no
 license.
 
 The application code is licensed separately under MIT. See `../LICENSE`.

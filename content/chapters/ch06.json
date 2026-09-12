@@ -1,0 +1,158 @@
+{
+  "id": "ch06",
+  "number": 6,
+  "title": { "es": "El río", "en": "The River" },
+  "level": 1,
+  "place": "Florida",
+  "date": "mayo de 1528",
+  "vocab": [
+    { "id": "agua", "es": "agua", "en": "water", "pos": "noun", "note": "el agua, but feminine: el agua fría, las aguas." },
+    { "id": "balsa", "es": "balsa", "en": "raft", "pos": "noun", "note": "la balsa. A raft; also the tree that gives balsa wood." },
+    { "id": "maiz", "es": "maíz", "en": "corn", "pos": "noun", "cognate": true, "note": "el maíz. Maize. Stress the í: ma-ÍZ." },
+    { "id": "guia", "es": "guía", "en": "guide", "pos": "noun", "cognate": true, "note": "el guía for the person; la guía is a guidebook." },
+    { "id": "campo", "es": "campo", "en": "field", "pos": "noun", "cognate": true, "note": "el campo. A field, or the countryside. Think camp." },
+    { "id": "corriente", "es": "corriente", "en": "current", "pos": "noun", "cognate": true, "note": "la corriente." }
+  ],
+  "paragraphs": [
+    [
+      "The ",
+      { "id": "rio", "es": "río", "en": "river" },
+      " is wide and the ",
+      { "id": "corriente", "es": "corriente", "en": "current" },
+      " is strong. There is no ford. The ",
+      { "id": "hombre", "es": "hombres", "en": "men" },
+      " who can swim, swim. The rest cut ",
+      { "id": "pino", "es": "pinos", "en": "pines" },
+      " and tie them into ",
+      { "id": "balsa", "es": "balsas", "en": "rafts" },
+      ", and the ",
+      { "id": "balsa", "es": "balsas", "en": "rafts" },
+      " turn in the ",
+      { "id": "corriente", "es": "corriente", "en": "current" },
+      " and the horses go across with their heads up and their eyes white. It takes a whole day. At the end of it we are on the other side, wet, with the same ",
+      { "id": "hambre", "es": "hambre", "en": "hunger" },
+      "."
+    ],
+    [
+      "On the far bank, in the evening, up to two hundred Indians come out of the trees. I count what I can see. They are big ",
+      { "id": "hombre", "es": "hombres", "en": "men" },
+      " and they carry bows. The ",
+      { "id": "gobernador", "es": "gobernador", "en": "governor" },
+      " walks toward them. They make signs, and the signs are the signs from the beach: go away. Our ",
+      { "id": "hombre", "es": "hombres", "en": "men" },
+      " take five or six of them. This is how we get ",
+      { "id": "guia", "es": "guías", "en": "guides" },
+      " in this ",
+      { "id": "tierra", "es": "tierra", "en": "land" },
+      ". We take them."
+    ],
+    [
+      "The ",
+      { "id": "guia", "es": "guías", "en": "guides" },
+      " lead us half a league to their houses, and around the houses there is ",
+      { "id": "maiz", "es": "maíz", "en": "corn" },
+      ". ",
+      { "id": "campo", "es": "Campos", "en": "Fields" },
+      " of ",
+      { "id": "maiz", "es": "maíz", "en": "corn" },
+      ", ripe, ready to be picked. I have seen soldiers weep at less. The ",
+      { "id": "hombre", "es": "hombres", "en": "men" },
+      " go into the ",
+      { "id": "campo", "es": "campos", "en": "fields" },
+      " and eat it raw, and the ",
+      { "id": "gobernador", "es": "gobernador", "en": "governor" },
+      " lets them, and then orders it gathered. That night there is ",
+      { "id": "comida", "es": "comida", "en": "food" },
+      ". There is ",
+      { "id": "maiz", "es": "maíz", "en": "corn" },
+      " roasted in the fires, and ",
+      { "id": "agua", "es": "agua", "en": "water" },
+      " from the ",
+      { "id": "rio", "es": "río", "en": "river" },
+      ", and for the first time since the ships nobody talks about the ships."
+    ],
+    [
+      "I sit by the ",
+      { "id": "agua", "es": "agua", "en": "water" },
+      " and count. Fifteen days of ",
+      { "id": "arena", "es": "arena", "en": "sand" },
+      " for one ",
+      { "id": "campo", "es": "campo", "en": "field" },
+      " of ",
+      { "id": "maiz", "es": "maíz", "en": "corn" },
+      ". A ",
+      { "id": "guia", "es": "guía", "en": "guide" },
+      " is a ",
+      { "id": "hombre", "es": "hombre", "en": "man" },
+      " we have taken by force, who will lead us where he wants, and we will follow, because we have no other way to ask. The ",
+      { "id": "corriente", "es": "corriente", "en": "current" },
+      " is loud all night. Somewhere down it there is the ",
+      { "id": "mar", "es": "mar", "en": "sea" },
+      ", and somewhere on the ",
+      { "id": "mar", "es": "mar", "en": "sea" },
+      " there are our ships, looking for a harbor we told them to find."
+    ],
+    [
+      "In the morning the ",
+      { "id": "guia", "es": "guías", "en": "guides" },
+      " walk at the front and our ",
+      { "id": "hombre", "es": "hombres", "en": "men" },
+      " walk close behind them. The ",
+      { "id": "campo", "es": "campos", "en": "fields" },
+      " of ",
+      { "id": "maiz", "es": "maíz", "en": "corn" },
+      " fall behind us, and the ",
+      { "id": "agua", "es": "agua", "en": "water" },
+      " we carry is the only thing that is heavier than it was."
+    ]
+  ],
+  "drills": [
+    {
+      "type": "choose",
+      "prompt": ["The river is wide and the ___ is strong."],
+      "options": ["corriente", "balsa", "campo", "guía"],
+      "answer": 0,
+      "vocab": "corriente"
+    },
+    {
+      "type": "choose",
+      "prompt": ["Around the houses there are fields of ___."],
+      "options": ["maíz", "arena", "agua", "oro"],
+      "answer": 0,
+      "vocab": "maiz"
+    },
+    {
+      "type": "reorder",
+      "tokens": ["El", "río", "y", "el", "agua."],
+      "hint": "The river and the water.",
+      "vocab": "agua"
+    },
+    {
+      "type": "reorder",
+      "tokens": ["Un", "campo", "de", "maíz."],
+      "hint": "A field of corn.",
+      "vocab": "campo"
+    },
+    {
+      "type": "comprehend",
+      "question": [
+        "¿Cómo cruzan el ",
+        { "id": "rio", "es": "río", "en": "river" },
+        "?"
+      ],
+      "options": ["en balsas", "en barcos", "en caballos", "en el puerto"],
+      "answer": 0
+    },
+    {
+      "type": "comprehend",
+      "question": [
+        "¿Qué hay en los ",
+        { "id": "campo", "es": "campos", "en": "fields" },
+        "?"
+      ],
+      "options": ["maíz", "oro", "arena", "pinos"],
+      "answer": 0
+    }
+  ],
+  "hook": "Tomorrow: a chief carried on another man's back, in a painted deer hide, with flutes playing."
+}

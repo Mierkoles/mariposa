@@ -1,0 +1,160 @@
+{
+  "id": "ch04",
+  "number": 4,
+  "title": { "es": "El notario", "en": "The Notary" },
+  "level": 1,
+  "place": "Florida",
+  "date": "abril de 1528",
+  "vocab": [
+    { "id": "tierra", "es": "tierra", "en": "land", "pos": "noun", "note": "la tierra. Land, soil, and the planet Earth." },
+    { "id": "comida", "es": "comida", "en": "food", "pos": "noun", "note": "la comida. Food, and also a meal." },
+    { "id": "notario", "es": "notario", "en": "notary", "pos": "noun", "cognate": true, "note": "el notario." },
+    { "id": "fraile", "es": "fraile", "en": "friar", "pos": "noun", "cognate": true, "note": "el fraile. Before a name it shortens to fray: fray Juan." },
+    { "id": "documento", "es": "documento", "en": "document", "pos": "noun", "cognate": true, "note": "el documento." },
+    { "id": "interprete", "es": "intérprete", "en": "interpreter", "pos": "noun", "cognate": true, "note": "el intérprete, la intérprete. Stress the é: in-TÉR-pre-te." },
+    { "id": "consejo", "es": "consejo", "en": "council", "pos": "noun", "cognate": true, "note": "el consejo. A council, or a piece of advice. Think counsel." },
+    { "id": "requerimiento", "es": "requerimiento", "en": "Requirement", "pos": "noun", "cognate": true, "note": "el requerimiento. The legal text Spain read aloud to Indians before conquest, in Spanish, whether or not anyone understood it." }
+  ],
+  "paragraphs": [
+    [
+      "Before anything else, the ",
+      { "id": "gobernador", "es": "gobernador", "en": "governor" },
+      " takes possession. The flags of the King go up on the beach. The ",
+      { "id": "notario", "es": "notario", "en": "notary" },
+      ", Jerónimo de Alaniz, reads the ",
+      { "id": "gobernador", "es": "gobernador", "en": "governor" },
+      "'s titles aloud, and we, the officers of the ",
+      { "id": "expedicion", "es": "expedición", "en": "expedition" },
+      ", say that we will obey him. Then he reads the ",
+      { "id": "requerimiento", "es": "requerimiento", "en": "Requirement" },
+      "."
+    ],
+    [
+      "The ",
+      { "id": "requerimiento", "es": "requerimiento", "en": "Requirement" },
+      " is a ",
+      { "id": "documento", "es": "documento", "en": "document" },
+      " written in Spain. It tells the people of this ",
+      { "id": "tierra", "es": "tierra", "en": "land" },
+      " that God made the world, that the Pope gave this ",
+      { "id": "tierra", "es": "tierra", "en": "land" },
+      " to the King, and that if they accept this they will be treated well, and if they do not, war will be made on them and the fault will be theirs. The ",
+      { "id": "notario", "es": "notario", "en": "notary" },
+      " reads it in Spanish, in a clear ",
+      { "id": "voz", "es": "voz", "en": "voice" },
+      ", to an empty village. No ",
+      { "id": "interprete", "es": "intérprete", "en": "interpreter" },
+      " could have helped. There is no one to interpret for."
+    ],
+    [
+      "In the afternoon some Indians come. They carry bows and they do not come close. They make signs with their hands: go back to the ships, go away. Then they leave. We have no ",
+      { "id": "interprete", "es": "intérprete", "en": "interpreter" },
+      ", so signs are the only language we share, and we have already been told what they mean."
+    ],
+    [
+      "The next morning the ",
+      { "id": "gobernador", "es": "gobernador", "en": "governor" },
+      " calls a ",
+      { "id": "consejo", "es": "consejo", "en": "council" },
+      ". He wants to march inland and send the ships along the ",
+      { "id": "costa", "es": "costa", "en": "coast" },
+      " to find a harbor. I say what I said on the beach: we have no ",
+      { "id": "comida", "es": "comida", "en": "food" },
+      ", no ",
+      { "id": "interprete", "es": "intérprete", "en": "interpreter" },
+      ", and no knowledge of this ",
+      { "id": "tierra", "es": "tierra", "en": "land" },
+      ". The horses are weak. We should go back aboard and look for a harbor, and for a ",
+      { "id": "tierra", "es": "tierra", "en": "land" },
+      " with ",
+      { "id": "comida", "es": "comida", "en": "food" },
+      " in it. The ",
+      { "id": "fraile", "es": "fraile", "en": "friar" },
+      ", fray Juan Suárez, says the opposite. The ships have given us trouble enough; better to walk along the ",
+      { "id": "costa", "es": "costa", "en": "coast" },
+      " and let the ships follow. The ",
+      { "id": "notario", "es": "notario", "en": "notary" },
+      " says the ",
+      { "id": "gobernador", "es": "gobernador", "en": "governor" },
+      " should not leave the ships without a known harbor. The ",
+      { "id": "gobernador", "es": "gobernador", "en": "governor" },
+      " listens to the ",
+      { "id": "fraile", "es": "fraile", "en": "friar" },
+      ", and decides to march."
+    ],
+    [
+      "Then I ask the ",
+      { "id": "notario", "es": "notario", "en": "notary" },
+      " for a ",
+      { "id": "documento", "es": "documento", "en": "document" },
+      ". I want it written that I objected, and why, so that if we die in this ",
+      { "id": "tierra", "es": "tierra", "en": "land" },
+      " the King will know who advised it. The ",
+      { "id": "gobernador", "es": "gobernador", "en": "governor" },
+      " asks the ",
+      { "id": "notario", "es": "notario", "en": "notary" },
+      " for a ",
+      { "id": "documento", "es": "documento", "en": "document" },
+      " of his own: that there is no ",
+      { "id": "comida", "es": "comida", "en": "food" },
+      " here, and that this is why he marches, to find a ",
+      { "id": "tierra", "es": "tierra", "en": "land" },
+      " that has some. The ",
+      { "id": "notario", "es": "notario", "en": "notary" },
+      " writes both. We are three hundred ",
+      { "id": "hombre", "es": "hombres", "en": "men" },
+      " and forty-two horses on a beach we cannot name, and our ",
+      { "id": "consejo", "es": "consejo", "en": "council" },
+      " has produced two pieces of paper."
+    ]
+  ],
+  "drills": [
+    {
+      "type": "choose",
+      "prompt": ["The ___ reads the governor's titles aloud."],
+      "options": ["notario", "fraile", "intérprete", "gobernador"],
+      "answer": 0,
+      "vocab": "notario"
+    },
+    {
+      "type": "choose",
+      "prompt": ["We have no ___, no interpreter, and no knowledge of this land."],
+      "options": ["comida", "tierra", "oro", "consejo"],
+      "answer": 0,
+      "vocab": "comida"
+    },
+    {
+      "type": "reorder",
+      "tokens": ["El", "notario", "y", "el", "fraile."],
+      "hint": "The notary and the friar.",
+      "vocab": "fraile"
+    },
+    {
+      "type": "reorder",
+      "tokens": ["La", "tierra", "y", "la", "comida."],
+      "hint": "The land and the food.",
+      "vocab": "tierra"
+    },
+    {
+      "type": "comprehend",
+      "question": [
+        "¿Quién quiere volver a los ",
+        { "id": "barco", "es": "barcos", "en": "ships" },
+        "?"
+      ],
+      "options": ["el tesorero", "el gobernador", "el fraile", "el capitán"],
+      "answer": 0
+    },
+    {
+      "type": "comprehend",
+      "question": [
+        "¿Qué lee el ",
+        { "id": "notario", "es": "notario", "en": "notary" },
+        "?"
+      ],
+      "options": ["el requerimiento", "el oro", "la comida", "la tierra"],
+      "answer": 0
+    }
+  ],
+  "hook": "Tomorrow: the first of May. Two pounds of biscuit and half a pound of bacon per man, and nobody knows how far."
+}

@@ -1,0 +1,155 @@
+{
+  "id": "ch05",
+  "number": 5,
+  "title": { "es": "Hambre", "en": "Hunger" },
+  "level": 1,
+  "place": "Florida",
+  "date": "mayo de 1528",
+  "vocab": [
+    { "id": "hambre", "es": "hambre", "en": "hunger", "pos": "noun", "note": "el hambre, but feminine: mucha hambre. Tengo hambre is I am hungry." },
+    { "id": "arena", "es": "arena", "en": "sand", "pos": "noun", "note": "la arena. A false friend: the English arena is named for the sand on a Roman floor." },
+    { "id": "pino", "es": "pino", "en": "pine", "pos": "noun", "cognate": true, "note": "el pino." },
+    { "id": "palmito", "es": "palmito", "en": "palmetto", "pos": "noun", "cognate": true, "note": "el palmito. The palmetto; in a kitchen, a palm heart." },
+    { "id": "mayo", "es": "mayo", "en": "May", "pos": "noun", "cognate": true, "note": "mayo. Months are lowercase in Spanish." },
+    { "id": "bizcocho", "es": "bizcocho", "en": "biscuit", "pos": "noun", "cognate": true, "note": "el bizcocho. Ship's biscuit then; sponge cake now." },
+    { "id": "libra", "es": "libra", "en": "pound", "pos": "noun", "cognate": true, "note": "la libra. The pound behind the £ sign; also the zodiac sign." }
+  ],
+  "paragraphs": [
+    [
+      "On the first of ",
+      { "id": "mayo", "es": "mayo", "en": "May" },
+      " we leave the ships. Each ",
+      { "id": "hombre", "es": "hombre", "en": "man" },
+      " is given two ",
+      { "id": "libra", "es": "libras", "en": "pounds" },
+      " of ",
+      { "id": "bizcocho", "es": "bizcocho", "en": "biscuit" },
+      " and half a ",
+      { "id": "libra", "es": "libra", "en": "pound" },
+      " of bacon. That is the whole of the ",
+      { "id": "comida", "es": "comida", "en": "food" },
+      ". The ",
+      { "id": "gobernador", "es": "gobernador", "en": "governor" },
+      " says we will find villages, and villages have ",
+      { "id": "comida", "es": "comida", "en": "food" },
+      ". I write the ration in my book and put the book inside my shirt."
+    ],
+    [
+      "The ",
+      { "id": "tierra", "es": "tierra", "en": "land" },
+      " is flat. The ",
+      { "id": "tierra", "es": "tierra", "en": "land" },
+      " is ",
+      { "id": "arena", "es": "arena", "en": "sand" },
+      ". We walk ",
+      { "id": "norte", "es": "norte", "en": "north" },
+      " through ",
+      { "id": "arena", "es": "arena", "en": "sand" },
+      " and ",
+      { "id": "palmito", "es": "palmitos", "en": "palmettos" },
+      " and ",
+      { "id": "pino", "es": "pinos", "en": "pines" },
+      ", and the ",
+      { "id": "pino", "es": "pinos", "en": "pines" },
+      " are the only shade. Some are split by lightning. Some have fallen. All of them look the same. For fifteen days there is no village, no field, no person."
+    ],
+    [
+      "The ",
+      { "id": "bizcocho", "es": "bizcocho", "en": "biscuit" },
+      " does not last. Then it is ",
+      { "id": "palmito", "es": "palmitos", "en": "palmettos" },
+      ": we cut the young hearts out of them and eat them raw, and they are not ",
+      { "id": "comida", "es": "comida", "en": "food" },
+      ", they are something to chew so that the mouth remembers. ",
+      { "id": "hambre", "es": "Hambre", "en": "Hunger" },
+      " is a plain word. In Spanish it is the same word for a hungry ",
+      { "id": "hombre", "es": "hombre", "en": "man" },
+      " and for a famine, and by the middle of ",
+      { "id": "mayo", "es": "mayo", "en": "May" },
+      " I understand why."
+    ],
+    [
+      "The ",
+      { "id": "gobernador", "es": "gobernador", "en": "governor" },
+      " rides at the front and does not look back. I walk with the ",
+      { "id": "hombre", "es": "hombres", "en": "men" },
+      ". I count: three hundred ",
+      { "id": "hombre", "es": "hombres", "en": "men" },
+      ", fifteen days, no villages. ",
+      { "id": "fortuna", "es": "Fortuna", "en": "Fortune" },
+      " has left us the ",
+      { "id": "sol", "es": "sol", "en": "sun" },
+      ", which we do not want, and the ",
+      { "id": "arena", "es": "arena", "en": "sand" },
+      ", which goes on. At night the ",
+      { "id": "pino", "es": "pinos", "en": "pines" },
+      " make a sound like the ",
+      { "id": "mar", "es": "mar", "en": "sea" },
+      ". Some of the ",
+      { "id": "hombre", "es": "hombres", "en": "men" },
+      " who were at Trinidad in the ",
+      { "id": "tormenta", "es": "tormenta", "en": "storm" },
+      " wake when they hear it."
+    ],
+    [
+      "On the fifteenth day a ",
+      { "id": "hombre", "es": "hombre", "en": "man" },
+      " at the front shouts. Not a village. Water, moving. A ",
+      { "id": "rio", "es": "río", "en": "river" },
+      ". The ",
+      { "id": "hambre", "es": "hambre", "en": "hunger" },
+      " does not go away, but for the first time in fifteen days it has to share us with something else."
+    ]
+  ],
+  "drills": [
+    {
+      "type": "choose",
+      "prompt": ["Each man is given two pounds of ___ and half a pound of bacon."],
+      "options": ["bizcocho", "arena", "palmito", "pino"],
+      "answer": 0,
+      "vocab": "bizcocho"
+    },
+    {
+      "type": "choose",
+      "prompt": ["We walk north through ___ and palmettos and pines."],
+      "options": ["arena", "comida", "tierra", "mar"],
+      "answer": 0,
+      "vocab": "arena"
+    },
+    {
+      "type": "reorder",
+      "tokens": ["Dos", "libras", "de", "bizcocho."],
+      "hint": "Two pounds of biscuit.",
+      "vocab": "libra"
+    },
+    {
+      "type": "reorder",
+      "tokens": ["Arena", "y", "pinos", "y", "sol."],
+      "hint": "Sand and pines and sun.",
+      "vocab": "pino"
+    },
+    {
+      "type": "comprehend",
+      "question": [
+        "¿Qué comen los ",
+        { "id": "hombre", "es": "hombres", "en": "men" },
+        " cuando no hay ",
+        { "id": "bizcocho", "es": "bizcocho", "en": "biscuit" },
+        "?"
+      ],
+      "options": ["palmitos", "vacas", "oro", "arena"],
+      "answer": 0
+    },
+    {
+      "type": "comprehend",
+      "question": [
+        "¿Qué hay en la ",
+        { "id": "tierra", "es": "tierra", "en": "land" },
+        "?"
+      ],
+      "options": ["arena y pinos", "oro y comida", "puertos", "barcos"],
+      "answer": 0
+    }
+  ],
+  "hook": "Tomorrow: the first river. We cross it swimming and on rafts, and on the other side someone is waiting."
+}

@@ -60,7 +60,7 @@ export interface Chapter {
   id: string;
   number: number;
   title: { es: string; en: string };
-  /** Weave level 1..6. See docs/CONTENT-GUIDE.md for what each level allows. */
+  /** Weave level 1..10. See docs/CONTENT-GUIDE.md for what each level allows. */
   level: number;
   /** Where and when the chapter happens, for the header line ("Florida", "abril de 1528"). */
   place?: string;
