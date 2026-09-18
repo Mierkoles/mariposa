@@ -52,7 +52,9 @@ export function closeGloss(): void {
   open = null;
 }
 
-document.addEventListener('click', (e) => {
+// pointerdown, not click: iOS Safari does not synthesize click events for taps
+// on non-interactive elements, so a background tap would never close the card.
+document.addEventListener('pointerdown', (e) => {
   if (!open) return;
   const t = e.target as Node;
   if (open.card.contains(t) || open.word === t) return;
@@ -76,6 +78,9 @@ function reveal(
   const card = document.createElement('div');
   card.className = 'gloss';
   card.setAttribute('role', 'status');
+  // A tap on the card dismisses it. The direct listener also makes iOS treat
+  // the card as clickable, and keeps the tap from reaching whatever is under it.
+  card.addEventListener('click', closeGloss);
   const head = document.createElement('b');
   head.textContent = el.textContent ?? '';
   card.append(head, en);

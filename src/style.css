@@ -313,6 +313,7 @@ button.link.subtle {
 .gloss {
   position: absolute;
   z-index: 10;
+  cursor: pointer;
   max-width: min(20rem, calc(100vw - 1.5rem));
   background: var(--gloss-bg);
   color: var(--gloss-fg);
@@ -418,7 +419,7 @@ button.link.subtle {
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 5;
+  z-index: 20; /* above the gloss card: Continue must never be covered */
   background: var(--card);
   border-top: 3px solid var(--verdigris);
   padding: 0.9rem 1.1rem calc(0.9rem + env(safe-area-inset-bottom));
