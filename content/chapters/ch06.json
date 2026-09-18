@@ -9,7 +9,7 @@
     { "id": "agua", "es": "agua", "en": "water", "pos": "noun", "note": "el agua, but feminine: el agua fría, las aguas." },
     { "id": "balsa", "es": "balsa", "en": "raft", "pos": "noun", "note": "la balsa. A raft; also the tree that gives balsa wood." },
     { "id": "maiz", "es": "maíz", "en": "corn", "pos": "noun", "cognate": true, "note": "el maíz. Maize. Stress the í: ma-ÍZ." },
-    { "id": "guia", "es": "guía", "en": "guide", "pos": "noun", "cognate": true, "note": "el guía for the person; la guía is a guidebook." },
+    { "id": "guia", "es": "guía", "en": "guide", "pos": "noun", "cognate": true, "note": "el guía or la guía for the person; also a guidebook." },
     { "id": "campo", "es": "campo", "en": "field", "pos": "noun", "cognate": true, "note": "el campo. A field, or the countryside. Think camp." },
     { "id": "corriente", "es": "corriente", "en": "current", "pos": "noun", "cognate": true, "note": "la corriente." }
   ],
@@ -140,7 +140,7 @@
         { "id": "rio", "es": "río", "en": "river" },
         "?"
       ],
-      "options": ["en balsas", "en barcos", "en caballos", "en el puerto"],
+      "options": ["en balsas", "en barcos", "a caballo", "en el puerto"],
       "answer": 0
     },
     {
