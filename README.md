@@ -10,7 +10,7 @@ Season one is **Naufragios**: Cabeza de Vaca's own account of the Narváez exped
 
 ## Status
 
-Alpha. One chapter written. Deploys to GitHub Pages on every push to `main`. See [PICKUP.md](PICKUP.md) for the next step.
+Early. Seven chapters of a planned ninety written and reviewed. Deploys to GitHub Pages on every push to `main`. See [PICKUP.md](PICKUP.md) for the next step.
 
 ## Run it
 

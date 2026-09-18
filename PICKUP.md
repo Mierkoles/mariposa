@@ -2,11 +2,9 @@
 
 **What this is:** Mariposa, a daily Spanish reader. English story, more Spanish each chapter, drills after. See README.
 
-**Where we are (2026-09-11):** Public repo, deployed to GitHub Pages on every push to `main`. Story is **Naufragios**, an adaptation of Cabeza de Vaca's 1542 account; bible written, chapters 1 to 7 drafted (beats 1 to 8), chronicle look done.
+**Where we are (2026-09-17):** Public repo, deployed to GitHub Pages on every push to `main`. Story is **Naufragios**, an adaptation of Cabeza de Vaca's 1542 account; bible written, chapters 1 to 7 committed (beats 1 to 8), chronicle look done. Spanish in chapters 2 to 7 reviewed 2026-09-17: accents, gender, notes, drills, and facts against the source all check; two small drill/note fixes landed in ch06.
 
-**Next action:** review the Spanish in chapters 2 to 7 (a model drafted them, nobody has read them yet), then install on the phone and read a week of it for real. Fix what feels off on the device before writing chapter 8 (beat 9, the Suwannee). Rules and prompt in [docs/CONTENT-GUIDE.md](docs/CONTENT-GUIDE.md); `npm run weave` checks the ramp.
-
-**Then:** commit and push. Chapters 2 to 7 are uncommitted as of this note.
+**Next action:** install on the phone and read a week of it for real. Fix what feels off on the device before writing chapter 8 (beat 9, the Suwannee). Rules and prompt in [docs/CONTENT-GUIDE.md](docs/CONTENT-GUIDE.md); `npm run weave` checks the ramp.
 
 **Already done:**
 - Vite + TypeScript PWA, offline capable, installs to a phone home screen
