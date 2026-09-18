@@ -1,0 +1,178 @@
+{
+  "id": "ch08",
+  "number": 8,
+  "title": { "es": "Juan Velázquez", "en": "Juan Velázquez" },
+  "level": 1,
+  "place": "Florida",
+  "date": "mayo de 1528",
+  "vocab": [
+    { "id": "muerte", "es": "muerte", "en": "death", "pos": "noun", "note": "la muerte. The adjective is muerto, dead. Think mortal." },
+    { "id": "cuerpo", "es": "cuerpo", "en": "body", "pos": "noun", "note": "el cuerpo. Think corpse." },
+    { "id": "silencio", "es": "silencio", "en": "silence", "pos": "noun", "cognate": true, "note": "el silencio." },
+    { "id": "momento", "es": "momento", "en": "moment", "pos": "noun", "cognate": true, "note": "el momento. Un momento: one moment, wait." }
+  ],
+  "paragraphs": [
+    [
+      "The ",
+      { "id": "rio", "es": "río", "en": "river" },
+      " is there before the ",
+      { "id": "sol", "es": "sol", "en": "sun" },
+      " is high. It is wide, as the ",
+      { "id": "cacique", "es": "cacique", "en": "chief" },
+      " said with his hands, and the ",
+      { "id": "corriente", "es": "corriente", "en": "current" },
+      " moves whole trees down the middle of it. Brown ",
+      { "id": "agua", "es": "agua", "en": "water" },
+      ", deep. The ",
+      { "id": "guia", "es": "guías", "en": "guides" },
+      " stop. The people of the ",
+      { "id": "cacique", "es": "cacique", "en": "chief" },
+      " stop. Three hundred ",
+      { "id": "hombre", "es": "hombres", "en": "men" },
+      " stand on the bank and look at the far side, and nobody has started cutting ",
+      { "id": "pino", "es": "pinos", "en": "pines" },
+      " for ",
+      { "id": "balsa", "es": "balsas", "en": "rafts" },
+      "."
+    ],
+    [
+      "Juan Velázquez does not wait. He is a ",
+      { "id": "hombre", "es": "hombre", "en": "man" },
+      " from Cuéllar, a horseman, tired of walking his ",
+      { "id": "caballo", "es": "caballo", "en": "horse" },
+      " through ",
+      { "id": "arena", "es": "arena", "en": "sand" },
+      ". He rides into the ",
+      { "id": "rio", "es": "río", "en": "river" },
+      ". The ",
+      { "id": "corriente", "es": "corriente", "en": "current" },
+      " takes them at the middle. For one ",
+      { "id": "momento", "es": "momento", "en": "moment" },
+      " I see him hold the reins, pulling the head of the ",
+      { "id": "caballo", "es": "caballo", "en": "horse" },
+      " around, and then the ",
+      { "id": "agua", "es": "agua", "en": "water" },
+      " turns them both over and closes. It is fast. The ",
+      { "id": "muerte", "es": "muerte", "en": "death" },
+      " of a ",
+      { "id": "hombre", "es": "hombre", "en": "man" },
+      " can be as fast as that."
+    ],
+    [
+      "In the evening the people of the ",
+      { "id": "cacique", "es": "cacique", "en": "chief" },
+      " find the ",
+      { "id": "caballo", "es": "caballo", "en": "horse" },
+      " far down the ",
+      { "id": "rio", "es": "río", "en": "river" },
+      ", against the bank, and they show us where the ",
+      { "id": "cuerpo", "es": "cuerpo", "en": "body" },
+      " is. We take the ",
+      { "id": "cuerpo", "es": "cuerpo", "en": "body" },
+      " out of the ",
+      { "id": "agua", "es": "agua", "en": "water" },
+      " and I write his name in my book. He is the first. The ",
+      { "id": "mar", "es": "mar", "en": "sea" },
+      " and the ",
+      { "id": "tormenta", "es": "tormenta", "en": "storm" },
+      " have taken many since Sanlúcar, but on this march no ",
+      { "id": "hombre", "es": "hombre", "en": "man" },
+      " had died until this ",
+      { "id": "momento", "es": "momento", "en": "moment" },
+      "."
+    ],
+    [
+      "That night we eat the ",
+      { "id": "caballo", "es": "caballo", "en": "horse" },
+      ". Nobody says much. ",
+      { "id": "hambre", "es": "Hambre", "en": "Hunger" },
+      " does not mourn, and the meat feeds many ",
+      { "id": "hombre", "es": "hombres", "en": "men" },
+      " who have had little ",
+      { "id": "comida", "es": "comida", "en": "food" },
+      " but ",
+      { "id": "maiz", "es": "maíz", "en": "corn" },
+      ". The ",
+      { "id": "flauta", "es": "flautas", "en": "flutes" },
+      " of the ",
+      { "id": "cacique", "es": "cacique", "en": "chief" },
+      " do not play. There is a ",
+      { "id": "silencio", "es": "silencio", "en": "silence" },
+      " over both camps, and under the ",
+      { "id": "silencio", "es": "silencio", "en": "silence" },
+      " the ",
+      { "id": "corriente", "es": "corriente", "en": "current" },
+      " keeps its one sound. I put the numbers in my book. ",
+      { "id": "hombre", "es": "Hombres", "en": "Men" },
+      ", three hundred less one. ",
+      { "id": "caballo", "es": "Caballos", "en": "Horses" },
+      ", forty-two less one."
+    ],
+    [
+      "In the morning we cross, slowly, with care, and no one else is lost. On the far side there are ",
+      { "id": "campo", "es": "campos", "en": "fields" },
+      " again, and houses, and the ",
+      { "id": "cacique", "es": "cacique", "en": "chief" },
+      " points ",
+      { "id": "norte", "es": "norte", "en": "north" },
+      " with his open hand. Apalachee. His ",
+      { "id": "enemigo", "es": "enemigos", "en": "enemies" },
+      ", our ",
+      { "id": "oro", "es": "oro", "en": "gold" },
+      ". Every ",
+      { "id": "hombre", "es": "hombre", "en": "man" },
+      " in the column walks a little faster now. I walk at the back, where I can count, and I think about the ",
+      { "id": "corriente", "es": "corriente", "en": "current" },
+      ", which did not care what we were looking for."
+    ]
+  ],
+  "drills": [
+    {
+      "type": "choose",
+      "prompt": ["It is the first ___ of the march."],
+      "options": ["muerte", "momento", "silencio", "tormenta"],
+      "answer": 0,
+      "vocab": "muerte"
+    },
+    {
+      "type": "choose",
+      "prompt": ["The Indians find the horse, and show us where the ___ is."],
+      "options": ["cuerpo", "campo", "cacique", "caballo"],
+      "answer": 0,
+      "vocab": "cuerpo"
+    },
+    {
+      "type": "reorder",
+      "tokens": ["La", "muerte", "de", "un", "hombre."],
+      "hint": "The death of a man.",
+      "vocab": "muerte"
+    },
+    {
+      "type": "reorder",
+      "tokens": ["Un", "momento", "de", "silencio."],
+      "hint": "A moment of silence.",
+      "vocab": "silencio"
+    },
+    {
+      "type": "comprehend",
+      "question": [
+        "¿Quién muere en el ",
+        { "id": "rio", "es": "río", "en": "river" },
+        "?"
+      ],
+      "options": ["Juan Velázquez", "el gobernador", "el cacique", "un guía"],
+      "answer": 0
+    },
+    {
+      "type": "comprehend",
+      "question": [
+        "¿Qué comen los ",
+        { "id": "hombre", "es": "hombres", "en": "men" },
+        " esa noche?"
+      ],
+      "options": ["el caballo", "maíz", "palmitos", "bizcocho"],
+      "answer": 0
+    }
+  ],
+  "hook": "Tomorrow: Apalachee at last. Forty houses, fields of corn, and only women and children in them."
+}

@@ -7,7 +7,7 @@ The Spanish must be correct. Everything else in this guide is secondary to that.
 Season one is **Naufragios**, an adaptation of Cabeza de Vaca's *Relación* (1542). The story bible, cast, sources, and the full beat outline are in `STORY.md`. Read it first; this table only tracks what has been written.
 
 **Narrator:** Álvar Núñez Cabeza de Vaca, treasurer of the Narváez expedition. First person, present tense.
-**Where we are:** May 1528, northern Florida. The column is marching with Dulchanchellin toward Apalachee, guides from the first river walking beside him. A bigger river is ahead. Next beat: 9, the Suwannee.
+**Where we are:** May 1528, northern Florida. The column has crossed the big river, where Juan Velázquez drowned, and marches with Dulchanchellin toward Apalachee. Next beat: 10, Apalachee.
 
 Keep a running summary here as chapters are added, so the next chapter can be written without rereading everything. Mark anything not in the source `(invented)`.
 
@@ -20,6 +20,7 @@ Keep a running summary here as chapters are added, so the next chapter can be wr
 | 5 | Hambre | 1 | 13% | 6 | 7 (5 cognates + hambre, arena) | 1 May, 2 lb biscuit and half lb bacon, fifteen days, sand, palmettos, pines split by lightning, no village. Pines sounding like the sea and the Trinidad men waking `(invented)`. |
 | 6 | El río | 1 | 11% | 7 | 6 (4 cognates + agua, balsa) | Wide river, strong current, swimming and rafts, one day, up to 200 Indians, five or six taken as guides, half a league to houses and ripe maize. "Soldiers weep at less" `(invented)`. |
 | 7 | Dulchanchellin | 1 | 11% | 8 | 6 (4 cognates + piel, ciervo) | Chief carried on a man's back, painted deer hide, reed flutes, many people, enemy of Apalachee, beads and bells for the hide. Colors unread and the guides walking beside him `(invented)`. Ends pointing at the big river (beat 9). |
+| 8 | Juan Velázquez | 1 | 14% | 9 | 4 (2 cognates + muerte, cuerpo) | The Suwannee. Velázquez of Cuéllar rides in without waiting, drowns with the horse; Dulchanchellin's people find horse and body downstream; first death of the march; the horse eaten that night. Flutes silent that night and fields on the far bank `(invented)`. |
 
 ## The weave ramp
 
